@@ -15,12 +15,12 @@ import java.util.Scanner;
 public class DisplayingSutterString{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.print("Please Enter The Word Is : ");
-        String word = input.next();
-        System.out.printf("The Word Is : %s%n", word);
-        String FristTwoCharactersFromWord = word.substring(0 , 2);
+        System.out.print("Please Enter The String Word Is : ");
+        String StringWord = input.next();
+        System.out.printf("The String Word Is : %s%n", StringWord);
+        String FristTwoCharactersFromWord = StringWord.substring(0 , 2);
         System.out.printf("The Frist Two Characters From The Word Is : %s%n", FristTwoCharactersFromWord);
-        String SutterWord = FristTwoCharactersFromWord+"... "+FristTwoCharactersFromWord+"... "+word+"?";
-        System.out.printf("The Sutter Word Is : %s%n", SutterWord);
+        String SutterStringWord = FristTwoCharactersFromWord+"... "+FristTwoCharactersFromWord+"... "+StringWord+"?";
+        System.out.printf("The Sutter String Word Is : %s%n", SutterStringWord);
     }
 }
